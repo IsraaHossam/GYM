@@ -1,0 +1,433 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    background-color: #FCFDFE;
+}
+
+.container {
+    padding: 60px;
+}
+
+.hero_content {
+    width: 40%;
+    float: left;
+}
+
+.hero h1 {
+    font-size: 400%;
+    margin-bottom: 0;
+}
+
+.hero p {
+    color: rgb(53, 51, 51);
+    font-size: 18px;
+}
+
+.img_container {
+    padding-top: 60px;
+    width: 50%;
+    float: right;
+    text-align: center;
+
+}
+
+.container img {
+    /* background-color: aqua; */
+    width: 70%;
+    border-radius: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+.start_btn {
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 60px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.learn_btn {
+    background-color: transparent;
+    border-color: rgb(207, 201, 201);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 30%;
+    height: 60px;
+    color: rgb(53, 51, 51);
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.why-choose-us h2 {
+    font-size: 40px;
+}
+
+.why-choose-us .title p {
+    color: rgb(53, 51, 51);
+    font-size: 22px;
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    padding: 30px 30px;
+}
+
+.outerdiv {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 13px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.inner-b-div {
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.inner-g-div {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.inner-p-div {
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card {
+    padding-top: 30px;
+    height: 200px;
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: rgb(192, 216, 196);
+    border-radius: 20px;
+    padding: 30px;
+    margin-right: 30px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #334155;
+}
+
+.blue-one {
+    background-color: rgb(219, 234, 254);
+
+}
+
+.green-one {
+    background-color: #D0FAE5;
+}
+
+.purple-one {
+    background-color: rgb(243, 232, 255);
+}
+
+.more-benefits {
+    padding: 30px;
+}
+
+.img {
+    float: left;
+    width: 60%;
+}
+
+.more-benefits h4 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.more-benefits h3 {
+    font-size: 30px;
+}
+
+.more-benefits p {
+    color: rgb(53, 51, 51);
+}
+
+.img img {
+    width: 85%;
+    margin-top: 35px;
+    border-radius: 20px;
+}
+
+.content {
+    float: right;
+    width: 40%
+}
+
+.feature {
+    border-left: 4px solid black;
+    /* vertical line */
+    padding-left: 12px;
+    /*space between line and text */
+    /* margin-bottom: 20px;          space between items */
+}
+
+.profile-img {
+    float: left;
+    width: 30%;
+}
+
+.feadback {
+    background-color: #F9FAFB;
+}
+
+.feadback .container {
+    margin-left: 40px;
+}
+
+.feadback .title {
+    margin-bottom: 50px;
+}
+
+.feadback .title h2 {
+    font-size: 40px;
+}
+
+.feadback .title p {
+    font-size: 20px;
+}
+
+.profile-img {
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 70%;
+    border-radius: 50px;
+}
+
+.info {
+    margin-top: 10px;
+    float: right;
+    width: 60%;
+    text-align: left;
+}
+
+.feadback-cards p, .feadback-cards h4 {
+    margin: 0px;
+    text-align: left;
+
+}
+
+.feadback-cards p {
+    color: rgb(53, 51, 51);
+}
+
+.insights {
+    margin-top: 50px;
+    background-color: rgb(223, 230, 240);
+    height: 120px;
+    padding-top: 50px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.insight {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.insight span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.membership-form .container {
+    width: 75%;
+    margin: auto;
+
+}
+
+.membership-form .title h2 {
+    font-size: 35px;
+}
+
+.membership-form .title p {
+    font-size: 15px;
+}
+
+.form {
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form p {
+    text-align: center;
+}
+
+label {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.make-inline1 {
+    float: left;
+    width: 40%;
+}
+
+.make-inline2 {
+    float: right;
+    width: 40%;
+}
+
+.block {
+    display: block;
+}
+
+input, #select, textarea {
+    width: 100%;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #D1D5DC;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+form button {
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: rgb(16, 24, 40);
+}
+
+.part {
+    float: left;
+    margin: auto;
+}
+
+.one {
+    width: 48%;
+    padding-right: 20px;
+}
+
+.one h2 {
+    font-size: 30px;
+}
+
+.one p {
+    font-size: 18px;
+}
+
+.two, .three {
+    width: 23%;
+}
+
+.footer .three p,.footer .three h4 {
+    padding: 0px;
+}
+
+.part h2,
+.part h3,
+.part h4 {
+    color: #eef0f3;
+
+}
+
+.part p,
+.part span,
+.part a {
+    color: #99A191;
+}
+
+.part a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.social {
+    float: left;
+    margin: auto;
+    width: 15%;
+}
+
+.parts {
+    border-bottom: #99A191;
+    border-width: 20px solid;
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 40px 0;
+}
+
+.copyright {
+    float: left;
+    color: #99A191;
+}
+
+.policy {
+    float: right;
+    color: #99A191;
+}
+
+.policy span {
+    width: 25%;
+    margin: 0 10px;
+
+}
+
+.three h4,
+.three p {
+    margin: 8px 0;
+}
